@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.instruction {
+    text-align: center;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+.chat-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
